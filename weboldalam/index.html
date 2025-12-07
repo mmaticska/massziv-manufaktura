@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Maticska Máté">
+    <meta name="description" content="Ez a weboldalam kezdőlapja, amelynek témája egy asztalos műhely. Röviden bemutatja a műhelyt, valamint az értékeléseket lehet megtekinteni és írni.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kezdőlap - Masszív Manufaktúra</title>
+    <link rel="icon" type="image/png" href="./assets/img/logo.png">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/velemeny.js" defer></script> 
+</head>
+<body>
+    <header>
+        <div>
+            <img class="logo" src="./assets/img/logo.png" alt="Masszív Manufaktúra logója">
+            <a href="index.html" class="cim"><span>Masszív</span> Manufaktúra</a>
+        </div>
+        <div>
+            <nav>
+                <a href="index.html">Kezdőlap</a>
+                <a href="termekek.html">Termékek</a>
+                <a href="szakemberek.html">Szakemberek</a>
+                <a href="kapcsolat.html">Kapcsolat</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="kezdolap-main">
+        <div id="kezdolapcim">
+            <h1 id="kezdolapelso">Üdvözli Önt a Masszív Manufaktúra!</h1>
+            <h1 id="kezdolapmasodik">Ahol a természet beköltözik otthonába</h1>
+        </div>
+        <h1 id="article-cim">Miért más ez mint a többi asztalos műhely?</h1>
+        <article>
+            <p>Egy olyan világban, ahol a tárgyak gyakran csak egy szezonra szólnak,
+            és ahol a gyors megoldások felváltják a minőséget, mi hiszünk abban, hogy az otthonnak az állandóságot kell képviselnie.</p>
+
+            <p>Számunkra a fa nem csupán alapanyag, hanem a természet egyik legnemesebb ajándéka. Minden deszkának, minden rönknek saját története, illata és rajzolata van. Amikor Ön végighúzza kezét egy általunk készített étkezőasztalon vagy komódon,
+            nem egy hideg ipari felületet érint, hanem a természet melegségét.</p>
+
+            <img id="feri-peti-munka" src="./assets/img/feri-peti.png" alt="Feri és Peti dolgozik">
+            
+            <p>Bútorainkat úgy tervezzük, hogy azok dacoljanak az idővel. Nem a pillanatnyi trendeket kergetjük, hanem a klasszikus, időtálló formavilágot ötvözzük a modern funkcionális igényekkel. Egy Masszív Manufaktúra asztal mellett felnőhet egy generáció,
+            a karcolások és az évek pedig nem elhasználják, hanem patinássá, éretté teszik a felületeket.</p>
+
+            <p>A kézművesség garanciája A "manufaktúra" szó számunkra kötelezettség. Azt jelenti: kézzel készült. Figyelünk a fa erezetének futására, a csapolások pontosságára és a felületek selymes tapintására. 
+            Nálunk a "selejt" ismeretlen fogalom, mert addig nem engedünk ki semmit a kezünkből, amíg az nem tökéletes.</p>
+            
+            <p>Nem csupán bútorokat értékesítünk, hanem jövőbeli családi örökségeket adunk át, amelyek generációkon átívelő köteléket teremtenek. Műhelyünkben a friss forgács illata és a fűrész ritmikus hangja nem csupán munkafolyamat, hanem szenvedélyünk éneke, mely minden elkészült darabban tovább él.
+            Kizárólag fenntartható forrásból származó faanyaggal dolgozunk, mert hisszük, hogy a természet tisztelete a hosszú életű és lelkiismeretes alkotás alapköve. Minden egyes darab megtervezésekor az Ön álmait és egyedi igényeit öntjük formába, így a végeredmény tökéletesen illeszkedik majd életteréhez és szokásaihoz.</p>
+
+        </article>
+        <aside>
+            <div class="ertekelesek">
+                <h2>Vélemények:</h2>
+                <ul id="velemenylista">
+                    <li><span class="iro">Kovács Péter: </span>"Végre egy bútor, aminek tényleg van anyaga! Amikor megérkezett a tölgyfa étkezőasztalunk, alig tudtuk a helyére tenni a súlya miatt – és ez a legjobb, ami történhetett. Stabil, nem nyikorog, nem remeg. Ez tényleg masszív."</li>
+                    <li><span class="iro">Varga Éva: </span>"Régóta kerestünk olyan ágykeretet, ami nemcsak szép, de tartós is. A Masszív Manufaktúránál találtuk meg az igazit. Imádjuk a fa illatát, ami betölti a hálószobát. Érezni rajta a törődést és a szakértelmet."</li>
+                    <li><span class="iro">Nagy Gábor: </span>"Nem bíztam a sablonmegoldásokban, mert egyedi méretre volt szükségem a nappaliban. A csapat profi volt, a tervezéstől a gyártásig mindent egyeztettünk. A végeredmény milliméterre pontos, és pont olyan, amilyet megálmodtam."</li>
+                </ul>
+                <div id="sajat_ertekeles">
+                    <label for="velemeny">Írd le te is a véleményed:</label>
+                    <input type="text" id="velemeny" placeholder="Fontos számunkra a véleményed!">
+                    <button id="kozzetesz">Közzététel</button>
+                </div>
+            </div>
+        </aside>
+
+    </main>
+
+
+    <footer>
+        <div id="kapcsolat">
+            <ul>
+                <li>Telefonszám: +36 20 123 4567</li>
+                <li>E-mail cím: massziv.manufaktura@email.com</li>
+                <li>Székhely: Budapest, 1234 Masszív utca 2</li>
+            </ul>
+            <div class="kapcsolat-logo">
+                <a class='footer-kapcsolat' href="kapcsolat.html">Felveszem a kapcsolatot!</a>
+                <img class="logo" src="./assets/img/logo.png" alt="Masszív Manufaktúra logója">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
